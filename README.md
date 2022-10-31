@@ -28,7 +28,7 @@ Registered users can edit and delete treats and flavors, and delete links betwee
 ```json
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Port=3306;database=candyshop;uid=YOURUSERNAME;pwd=YOURPASSWORD;"
+    "DefaultConnection": "Server=localhost;Port=3306;database=treatflavors;uid=YOURUSERNAME;pwd=YOURPASSWORD;"
   }
 }
 ```
