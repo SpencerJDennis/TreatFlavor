@@ -1,0 +1,15 @@
+@{
+  Layout = "_Layout";
+}
+
+@model TreatFlavors.Models.Flavor
+
+<h2>Are you sure you want to delete this Flavor?!</h2>
+
+@Html.Label("Flavor Name"): @Html.DisplayFor(model => model.FlavorName)
+@Html.Label("Flavor Description"): @Html.DisplayFor(model => model.FlavorDescription)
+@using (Html.BeginForm())
+{
+  <input type="submit" value="Delete" />
+}
+@Html.ActionLink("Back", "Index")
